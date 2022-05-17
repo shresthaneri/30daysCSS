@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(236, 225, 247);
+}
+
+#title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title h1 {
+    font-size: 40px;
+}
+
+#title h3 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.button {
+    border: 1px solid black;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+
+#css-btn {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.color-btn {
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.border-btn {
+    background-color: rgb(236, 225, 247);
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.size-btn,
+.rounded-btn,
+.shadow-btn,
+.disabled-btn,
+.animated-btn {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.hoverable-btn {
+    background-color: rgb(236, 225, 247);
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#red:hover {
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
+
+#green:hover {
+    border: 0.1px solid green;
+    background-color: rgb(236, 225, 247);
+    color: black;
+}
+
+#blue:hover {
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+#shadow1 {
+    box-shadow: 10px 10px 8px #c6c6c6;
+}
+
+#shadow2:hover {
+    box-shadow: 10px 10px 8px #c6c6c6;
+}
+
+#disabled2 {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+#animated1{
+    box-shadow: 10px 10px 8px #7e7d7d;
+    cursor: pointer;
+}
+#animated1:hover{
+    background-color: rgb(108, 27, 184);
+}
+#animated1:active{
+    transform: translateY(2px);
+}
