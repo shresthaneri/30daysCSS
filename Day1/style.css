@@ -20,7 +20,7 @@ h2 {
 }
 
 .button {
-    border: 1px solid black;
+    border: 1px solid rgb(200, 158, 240);
     width: 30%;
     height: 350px;
     text-align: center;
@@ -115,13 +115,15 @@ h2 {
     cursor: not-allowed;
 }
 
-#animated1{
+#animated1 {
     box-shadow: 10px 10px 8px #7e7d7d;
     cursor: pointer;
 }
-#animated1:hover{
+
+#animated1:hover {
     background-color: rgb(108, 27, 184);
 }
-#animated1:active{
+
+#animated1:active {
     transform: translateY(2px);
 }
