@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4d4d51;
+    /* background-color:rgb(196, 224, 247); */
+}
+
+#title h1 {
+    font-size: 40px;
+}
+
+#title h3 {
+    font-size: 32px;
+}
+.card {
+    width: 400px;
+    height: auto;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 8px #dddcdc;
+}
+
+.profile #background {
+    width: 400px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profile #profile {
+    width: 100px;
+    height: 100px;
+    margin-top: -60px; 
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.name,
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    text-align: center;
+}
+
+.info p {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
