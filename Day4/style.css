@@ -20,6 +20,7 @@ form{
     border: 1px solid white;
     border-radius: 15px;
     margin: 5% 15% 0 55%;
+    position: fixed;
     box-shadow: 0px 8px 10px #dddcdc, 
     -10px 8px 15px #dddcdc, 10px 8px 15px #dddcdc;
 }
