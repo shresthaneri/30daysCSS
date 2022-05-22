@@ -57,5 +57,6 @@ hr{
     margin-left: 27%;
 }
 #text{
-    margin-left: 57%;
+    margin: 35% 0 0 57%;
+    position: fixed;
 }
