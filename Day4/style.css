@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+img{
+    height: 106px;
+    margin: -28px;
+}
+.left p{
+    width: 500px;
+    font-size: 28px;
+}
+.left{
+    margin: 10% 10% 10% 15%;
+    position: fixed;
+    float: left;
+    
+}
+form{
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 5% 15% 0 55%;
+    box-shadow: 0px 8px 10px #dddcdc, 
+    -10px 8px 15px #dddcdc, 10px 8px 15px #dddcdc;
+}
+.content{
+    padding: 2%;
+}
+input{
+    border: 1px solid grey;
+    width: 85%;
+    padding: 15px;
+    margin: 4%;
+    border-radius: 7px;
+}
+button {
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin: 4%;
+    font-size: 18px;
+    
+}
+form p{
+    font-size: 12px;
+    color: blue;
+    text-align: center;
+}
+hr{
+    width: 95%;
+}
+#create{
+    width: 50%;
+    margin-left: 27%;
+}
+#text{
+    margin-left: 55%;
+}
