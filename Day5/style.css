@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4d4d51;
+}
+
+#title h1 {
+    font-size: 40px;
+}
+
+#title h3 {
+    font-size: 32px;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    border: 10px solid rgb(245, 190, 37);
+    filter: blur(5px);
+    cursor: crosshair;
+    transition:filter 0.3s linear,transform 0.3s linear;
+}
+img:hover{
+    filter: blur(0);
+    transform: scale(1.1); 
+}
