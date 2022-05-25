@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d51;
+}
+#title h1 {
+    font-size: 40px;
+}
+
+#title h3 {
+    font-size: 32px;
+}
+.animation1 {
+    position: relative;
+    display: block;
+    padding: 5px;
+    top: 50px;
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: #e6e6e6;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.animation1 span {
+    position: relative;
+    display: block;
+    height: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: rgb(104, 106, 243);
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #2058d1, #140555);
+    animation: progress1 10s infinite ease;
+}
+.animation1 span::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #fff 25%,
+            rgba(0, 0, 0, 0) 25%,
+            rgba(0, 0, 0, 0) 50%,
+            #fff 50%,
+            #fff 75%,
+            rgba(0, 0, 0, 0) 75%,
+            rgba(0, 0, 0, 0));
+    background-size: 20px 20px;
+    opacity: 0.3;
+    animation: progress1after 0.5s infinite linear;
+}
+.animation2 {
+    position: relative;
+    display: block;
+    padding: 5px;
+    top: 90px;
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 16px;
+    background: #e6e6e6;
+    border-radius: 30px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.animation2 span{
+    position: relative;
+    display: block;
+    height: 20px;
+    background-color: rgb(104, 106, 243);
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #2058d1, #140555);
+    border-radius: 30px;
+    animation: progress2 10s infinite ease;
+}
+.animation2 span::before{
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-top-color: rgba(0, 0, 0, 1);
+    content: "";
+}
+.animation2 span::after{
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 5px);
+    z-index: 1;
+    display: block;
+    content: attr(data-label);
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    background-color: rgba(0,0,0,1);
+    color: white;
+}
+@keyframes progress1{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes progress1after{
+    0%{
+        background-position: 0 100%;
+    }
+    100%{
+        background-position: 30px 100%;
+    }
+}
+@keyframes progress2{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 100%;
+    }
+}
