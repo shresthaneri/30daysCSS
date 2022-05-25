@@ -6,7 +6,6 @@ body {
 #title h1 {
     font-size: 40px;
 }
-
 #title h3 {
     font-size: 32px;
 }
@@ -80,6 +79,7 @@ body {
     animation: progress2 10s infinite ease;
 }
 .animation2 span::before{
+    content: "";
     position: absolute;
     right: 0;
     bottom: 100%;
@@ -90,7 +90,6 @@ body {
     border-right-width: 0;
     border-bottom-width: 0;
     border-top-color: rgba(0, 0, 0, 1);
-    content: "";
 }
 .animation2 span::after{
     position: absolute;
