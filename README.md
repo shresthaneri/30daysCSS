@@ -1,7 +1,7 @@
 ## 30daysCSSchallenge
 
 ## Objectives 🎯
-This challenge consists in developing one mini-project a day for 30 days, to improve coding skills using CSS3 and HTML5
+This challenge consists in developing one mini-project a day for 30 days, to improve coding skills using CSS3 and HTML5.
 
 ## Projects 💻
 
