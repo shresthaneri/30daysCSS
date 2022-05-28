@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d51;
+    text-align: center;
+}
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url(https://i.pinimg.com/originals/f6/4c/59/f64c59febd4dca0c078b8f7b3e0a4553.jpg);
+    min-height: 700px;
+}
+
+.img2 {
+    background-image: url(https://w0.peakpx.com/wallpaper/1012/724/HD-wallpaper-bubble-blue-butterfly-bubble-butterfly-abstract-blue.jpg);
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url(https://images.hdqwalls.com/wallpapers/poppy-flowers-field-gj.jpg);
+    min-height: 400px;
+}
+
+section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.sec1,
+.sec3 {
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.sec2 {
+    background-color: #282e34;
+    color: #eee;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+span {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.img2 span,
+.img3 span{
+    background: transparent;
+    color: #fff;
+}
+h2{
+    margin-bottom: 40px;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-align: justify;
+}
