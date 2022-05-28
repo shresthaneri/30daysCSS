@@ -14,7 +14,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |05|Blurry Effect|[View](https://codepen.io/shresthaneri/full/GRQvVVP)|
 |06|Pacman VS Ghost|[View](https://codepen.io/shresthaneri/full/LYQzqJJ)|
 |07|Animated Progress Bar|[View](https://codepen.io/shresthaneri/full/poadWOb)|
-|08|
+|08|Parallax Website of CLG|[View](https://codepen.io/shresthaneri/full/jOZZMqG)|
 |09|
 |10|
 |11|
