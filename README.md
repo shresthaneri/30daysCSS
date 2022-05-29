@@ -15,7 +15,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |06|Pacman VS Ghost|[View](https://codepen.io/shresthaneri/full/LYQzqJJ)|
 |07|Animated Progress Bar|[View](https://codepen.io/shresthaneri/full/poadWOb)|
 |08|Parallax Website of CLG|[View](https://codepen.io/shresthaneri/full/jOZZMqG)|
-|09|
+|09|Grid Layout|[View](https://codepen.io/shresthaneri/full/KKQQGqE)|
 |10|
 |11|
 |12|
