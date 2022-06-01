@@ -16,7 +16,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |07|Animated Progress Bar|[View](https://codepen.io/shresthaneri/full/poadWOb)|
 |08|Parallax Website of CLG|[View](https://codepen.io/shresthaneri/full/jOZZMqG)|
 |09|Grid Layout|[View](https://codepen.io/shresthaneri/full/KKQQGqE)|
-|10|
+|10|ITSNP Clone|[View](https://codepen.io/shresthaneri/full/wvyjqQz)
 |11|
 |12|
 |13|
