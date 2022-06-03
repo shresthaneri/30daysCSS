@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #8FC0BC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    background-color: #8FC0BC;
+    background-size: cover;
+}
+
+nav {
+    width: 25%;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.menu {
+    padding-top: 100px;
+}
+
+.menu i {
+    margin: 0 20px;
+}
+
+.icons {
+    display: block !important;
+    position: absolute;
+    bottom: 8%;
+}
+
+.icons a i {
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 1px 3px grey;
+    transition: 0.3s ease;
+}
+
+#fb {
+    background-color: #455EB0;
+}
+
+#insta {
+    background-color: #FF01A2;
+}
+
+#linkedin {
+    background-color: #2867B2;
+}
+
+#github {
+    background-color: #000000;
+}
+
+.icons a i:hover {
+    transform: translateY(-7px) scale(1.05);
+}
+
+#main-doc{
+    margin-left: 30%;
+    margin-right: 5%;
+    color: white;
+    background-color: transparent;
+}
+#main-doc h2{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+#main-doc p{
+    opacity: 0.75;
+    font-size: 22px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+#home img{
+    margin-left: -35%;
+    height: 100vh;
+}
+#home h2{
+    margin-top: -50%;
+    line-height: 1.5em;
+}
+#home p{
+    margin-top: 20px;
+}
+#about,
+#projects,
+#contact{
+    height: 50vh;
+    margin-top: 40%;
+}
+#about p,
+#projects p,
+#contact p{
+    width: 80%;
+    text-align: left;
+    margin-left: 5%;
+}
+#contact{
+    height: 100vh;
+}
+
+#projects h3{
+    margin: 50px auto;
+    font-size: 28px;
+}
+#projects a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: white;
+    color: #94c4c0;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 30px;
+}
+#projects a:hover{
+    background-color: #94c4c0;
+    color: white;
+}
+#contact li{
+    list-style-type: none;
+    margin: 20px;
+    text-align: left;
+}
+#contact .fa-solid {
+    margin-right: 15px;
+    text-align: left;
+    margin-left: 5%;
+}
