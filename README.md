@@ -18,7 +18,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |09|Grid Layout|[View](https://codepen.io/shresthaneri/full/KKQQGqE)|
 |10|ITSNP Clone|[View](https://codepen.io/shresthaneri/full/wvyjqQz)
 |11|
-|12|
+|12|Grid Biography|[View](https://codepen.io/shresthaneri/full/VwQBJMK)
 |13|
 |14|
 |15||[]()|
