@@ -1,0 +1,184 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #454545;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    font-size: 40px;
+}
+
+#title h3 {
+    font-size: 32px;
+}
+
+.content {
+    width: 65%;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+code {
+    background-color: rgb(47, 88, 124);
+    padding: 3px;
+    color: aliceblue;
+}
+
+
+/* layout 1 css */
+
+.layout1 main {
+    display: flex;
+    flex-direction: row;
+}
+
+.layout1 header,
+.layout1 footer {
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.layout1 article {
+    flex: 1 58%;
+    margin-right: 2%;
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+}
+
+.layout1 aside {
+    flex: 1 40%;
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+}
+
+
+/* layout 2 css */
+
+.layout2 header,
+.layout2 footer {
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.layout2 header {
+    display: flex;
+    flex-direction: row;
+}
+
+.layout2 .logo {
+    flex: 1.5;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.layout2 header nav {
+    flex: 1;
+    margin-left: 2%;
+}
+
+.layout2 li {
+    list-style: none;
+    display: inline-block;
+}
+
+.layout2 a {
+    text-decoration: none;
+    color: #454545;
+    padding: 0 20px;
+}
+
+.layout2 main {
+    display: flex;
+    flex-direction: row;
+}
+
+.layout2 article {
+    flex: 1 56%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+}
+
+.layout2 aside.sidenav,
+.layout2 aside.sidebar {
+    flex: 1 20%;
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+}
+
+.layout2 footer {
+    text-align: center;
+}
+
+
+/* layout 3 css */
+
+.layout3 header,
+.layout3 footer {
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.layout3 header {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+}
+
+.layout3 .logo {
+    margin: 15px 20px 0 0;
+}
+
+.layout3 header nav {
+    flex: 1;
+    margin-left: -20px;
+}
+
+.layout3 li {
+    list-style: none;
+    display: inline-block;
+}
+
+.layout3 a {
+    text-decoration: none;
+    color: #454545;
+    padding: 0 20px;
+}
+
+.layout3 .articles {
+    display: flex;
+    flex-direction: row;
+}
+
+.layout3 article {
+    flex: 1;
+    margin: 0 2%;
+    background-color: rgb(163, 201, 235);
+    padding: 5px;
+}
+
+.layout3 article:first-child,
+.layout3 article:last-child {
+    margin: 0;
+}
+
+.layout3 footer {
+    text-align: center;
+}
