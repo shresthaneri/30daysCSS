@@ -20,8 +20,8 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |11|
 |12|Grid Biography|[View](https://codepen.io/shresthaneri/full/VwQBJMK)
 |13|Flexbox Layouts|[View](https://codepen.io/shresthaneri/full/oNEPqJL)
-|14|
-|15|Calculator Using Grid|[View](https://codepen.io/shresthaneri/full/YzeJjay)|
+|14|Calculator Using Grid|[View](https://codepen.io/shresthaneri/full/YzeJjay)|
+|15|
 |16|[]()|
 |17|[]()|
 |18|[]()|
