@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #454545;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    font-size: 30px;
+}
+
+#title h3 {
+    font-size: 22px;
+}
+
+.container {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    margin: 3% auto 0;
+}
+
+.single-img {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -webkit-transition: all 500ms cubic-bezier(.14, .69, .93, 1);
+    -moz-transition: all 500ms cubic-bezier(.14, .69, .93, 1);
+    -ms-transition: all 500ms cubic-bezier(.14, .69, .93, 1);
+    -o-transition: all 500ms cubic-bezier(.14, .69, .93, 1);
+    transition: all 500ms cubic-bezier(.14, .69, .93, 1);
+}
+
+.single-img:hover {
+    flex-basis: 65vw;
+}
