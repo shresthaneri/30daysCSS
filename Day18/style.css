@@ -1,0 +1,52 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    text-align: center;
+    color: #454545;
+}
+
+#title h1 {
+    font-size: 30px;
+}
+
+#title h3 {
+    font-size: 22px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 22px;
+}
+
+.header {
+    background: #f1d2b8;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.sidebar {
+    background: #95addb;
+    padding: 15% 0;
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+
+.main {
+    background: #a4ddda;
+    padding: 15% 0;
+    text-align: center;
+    width: 60%;
+    float: right;
+}
+
+.footer {
+    background: #f0bddf;
+    padding: 5% 0;
+    text-align: center;
+    clear: both;
+}
