@@ -25,7 +25,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |16|Neumorphic Keyboard Design|[View](https://codepen.io/shresthaneri/full/qBxQPEj)|
 |17|Dropdown Menu|[View](https://codepen.io/shresthaneri/full/QWQzOBp)|
 |18|Float with Clearfix|[View](https://codepen.io/shresthaneri/full/xxYmjoZ)|
-|19|[]()|
+|19|Grid Legos|[View](https://codepen.io/shresthaneri/full/QWQYpYx)|
 |20|[]()|
 |21|[]()|
 |22|[]()|
