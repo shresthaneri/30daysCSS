@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#E0EAFC, #CFDEF3);
+    height: 100vh;
+}
+
+#title {
+    text-align: center;
+    color: #27573b;
+}
+
+#title h1 {
+    font-size: 30px;
+}
+
+#title h3 {
+    font-size: 22px;
+}
+
+.center,
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content,
+#click {
+    display: none;
+}
+
+.click-me {
+    display: block;
+    width: 175px;
+    height: auto;
+    background: #27ae60;
+    border: 1px solid #26a65b;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.click-me:hover {
+    background: #219150;
+}
+
+.content {
+    opacity: 0;
+    visibility: hidden;
+    width: 400px;
+    height: 350px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+#click:checked~.content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.header {
+    height: 68px;
+    background: #27ae60;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    padding-left: 32px;
+    color: white;
+    font-weight: normal;
+}
+
+.fa-times {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-check {
+    font-size: 36px;
+    color: #27ae60;
+    font-weight: bold;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #27ae60;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 11px;
+    margin: 30px 0 0 160px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    width: 300px;
+    margin: 40px auto;
+}
+
+.line {
+    background: silver;
+    height: 1px;
+    width: 100%;
+    bottom: 60px;
+}
+
+.close-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    border: 1px solid #27ae60;
+    color: #27ae60;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 16px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background: #27ae60;
+    color: white;
+    transition: 0.5s ease;
+}

@@ -26,7 +26,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |17|Dropdown Menu|[View](https://codepen.io/shresthaneri/full/QWQzOBp)|
 |18|Float with Clearfix|[View](https://codepen.io/shresthaneri/full/xxYmjoZ)|
 |19|Grid Legos|[View](https://codepen.io/shresthaneri/full/QWQYpYx)|
-|20|[]()|
+|20|Modal Popup|[View](https://codepen.io/shresthaneri/full/yLvwbBx)|
 |21|[]()|
 |22|[]()|
 |23|[]()|
