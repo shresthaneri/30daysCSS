@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #454545;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+}
+
+#title {
+    text-align: center;
+   
+}
+
+#title h1 {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #ffa460;
+}
+
+#title h3 {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.container{
+    display: flex;
+}
+
+.static-text{
+    font-size: 60px;
+    font-weight: 400;
+}
+.dynamic-text{
+    margin-left: 15px;
+    height: 90px; 
+    line-height: 90px;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    color: #ffa460;
+    top: 0px;
+    position: relative;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #454545;
+    border-left: 2px solid #ffa460;
+    animation: typing 3s steps(10) infinite;
+}
+
+/* @keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+} */
+
+@keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
