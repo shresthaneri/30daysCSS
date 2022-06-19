@@ -1,0 +1,116 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    max-width: 100vw;
+}
+
+#title h1 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#title h3 {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.product img {
+    width: auto;
+    height: 50vh;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 85vh;
+    width: 100vw;
+    padding: 0 50px;
+    background-color: hsl(30, 50%, 75%);
+}
+
+.product::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: hsl(30, 50%, 75%);
+    mix-blend-mode: hue;
+
+}
+
+.product-nav {
+    position: relative;
+}
+
+.product-nav label {
+    display: inline-block;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: hsl(30, 50%, 75%);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 0 0.5em #fff,
+        0.5em 0.5em 1em -0.15em rgba(0, 0, 0, 0.25);
+    transition: 200ms all ease-in-out;
+}
+
+.product-nav label+label {
+    margin-left: 50px;
+}
+
+.product-nav label:nth-of-type(1),
+#color-1:checked~.product::after {
+    background-color: hsl(30, 50%, 75%);
+}
+
+.product-nav label:nth-of-type(2),
+#color-2:checked~.product::after {
+    background-color: hsl(187, 50%, 75%);
+}
+
+.product-nav label:nth-of-type(3),
+#color-3:checked~.product::after {
+    background-color: hsl(275, 50%, 75%);
+}
+
+.product-nav label:nth-of-type(4),
+#color-4:checked~.product::after {
+    background-color: hsl(0, 50%, 75%);
+}
+
+
+#color-1:checked~.product-nav>label:nth-of-type(1),
+#color-2:checked~.product-nav>label:nth-of-type(2),
+#color-3:checked~.product-nav>label:nth-of-type(3),
+#color-4:checked~.product-nav>label:nth-of-type(4) {
+    transform: scale(1.3);
+}
+
+#color-1:checked~.product-nav>label:nth-of-type(1) {
+    background-color: hsl(30, 70%, 45%);
+}
+
+#color-2:checked~.product-nav>label:nth-of-type(2) {
+    background-color: hsl(187, 70%, 45%);
+}
+
+#color-3:checked~.product-nav>label:nth-of-type(3) {
+    background-color: hsl(275, 70%, 45%);
+}
+
+#color-4:checked~.product-nav>label:nth-of-type(4) {
+    background-color: hsl(0, 70%, 45%);
+}
