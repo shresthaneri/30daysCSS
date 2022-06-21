@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #121830;
+}
+
+#title h1 {
+    font-size: 30px;
+}
+
+#title h2 {
+    font-size: 22px;
+}
+
+.faq {
+    width: 60%;
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #00C6C2;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 32px;
+    padding: 15px 15px 0;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+p {
+    color: #ccc;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 32px;
+    position: relative;
+    overflow: hidden;
+    max-height: 250px;
+    will-change: max-height;
+    contain: layout;
+    display: inline-block;
+    opacity: 1;
+    transform: translate(0.0);
+    margin: 20px 15px;
+    transition: 0.3s opacity, 0.6s max-height;
+    hyphens: auto;
+    z-index: 2;
+}
+
+li {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: #121830;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+li+li {
+    margin-top: 15px;
+}
+
+li:last-of-type {
+    padding-bottom: 0;
+}
+
+i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 28px;
+    right: 15px;
+    color: #00C6C2;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    touch-action: manipulation;
+}
+
+input[type="checkbox"]:checked ~ h3,
+input[type="checkbox"]:checked ~ i{
+    color: #ccc;
+}
+
+input[type="checkbox"]:checked ~ p{
+    margin: 0;
+    max-height: 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.transition, p, i {
+    transition: 0.3s;
+}
