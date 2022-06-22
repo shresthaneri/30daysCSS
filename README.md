@@ -33,7 +33,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |24|Text Typing Animation|[View](https://codepen.io/shresthaneri/full/NWymqby)|
 |25|CSS Blend Modes|[View](https://codepen.io/shresthaneri/full/rNJbKWo)|
 |26|AskMitra CLG FAQs|[View](https://codepen.io/shresthaneri/full/abqrMPB)|
-|27|[]()|
+|27|Loading Animation|[View](https://codepen.io/shresthaneri/full/dydBVdx)|
 |28|[]()|
 |29|[]()|
 |30|[]()|

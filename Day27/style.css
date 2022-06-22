@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: #111;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #abc0e6;
+}
+
+#title h1 {
+    font-size: 30px;
+}
+
+#title h2 {
+    font-size: 22px;
+}
+
+.circle {
+    margin: 70px auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid rgb(87, 86, 86);
+    border-top-color: #fff;
+    animation: circle 1s linear infinite;
+}
+
+@keyframes circle {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    width: 70px;
+    margin: 70px auto;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 2px;
+    display: inline-block;
+    animation: dot 0.7s linear infinite;
+}
+
+.dot1 {
+    background-color: #e6abab;
+    animation-delay: 0s;
+}
+
+.dot2 {
+    background-color: #abc0e6;
+    animation-delay: 0.1s;
+}
+
+.dot3 {
+    background-color: #abe6b0;
+    animation-delay: 0.2s;
+}
+
+@keyframes dot {
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    display: inline-block;
+    background-color: #eee;
+    animation: box 0.6s ease-in infinite alternate;
+}
+
+.box2,
+.box3 {
+    animation-delay: 0.6s;
+}
+
+@keyframes box {
+    100% {
+        opacity: 0;
+    }
+}
