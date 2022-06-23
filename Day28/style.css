@@ -1,0 +1,63 @@
+#title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title h1 {
+    font-size: 30px;
+}
+
+#title h2 {
+    font-size: 22px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    margin: 20vh auto;
+    background: url('https://www.vadigran.com/media/website_image_4by3_2400/assets/660ca880-73ff-11ea-a7a1-00505697ce7a/8714615500597.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid #B47552;
+    position: relative;
+}
+
+.profile::before,
+.profile::after {
+    --scale: 0;
+    --color: #B47552;
+    --arrow-size: 10px;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    transition: .7s transform;
+    transform-origin: bottom center;
+}
+
+.profile::before {
+    --translate-y: calc(-100% - var(--arrow-size));
+    content: attr(data-tooltip);
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    width: max-content;
+    max-width: 100%;
+    border-radius: 5px;
+    background: var(--color);
+}
+
+.profile:hover::before,
+.profile:hover::after {
+    --scale: 1;
+}
+
+.profile::after {
+    --translate-y: calc(-1 * var(--arrow-size));
+    content: '';
+    border: var(--arrow-size) solid transparent;
+    border-top-color: var(--color);
+    transform-origin: top center;
+}
