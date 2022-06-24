@@ -35,7 +35,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |26|AskMitra CLG FAQs|[View](https://codepen.io/shresthaneri/full/abqrMPB)|
 |27|Loading Animation|[View](https://codepen.io/shresthaneri/full/dydBVdx)|
 |28|CSS Tooltip|[View](https://codepen.io/shresthaneri/full/YzemPWY)|
-|29|CSS Toogle|[View](https://codepen.io/shresthaneri/full/xxYvrZo)|
+|29|CSS Toggle|[View](https://codepen.io/shresthaneri/full/xxYvrZo)|
 |30|[]()|
 
 ## If you are wondering, why suddenly 30days challenge?
