@@ -36,7 +36,7 @@ This challenge consists in developing one mini-project a day for 30 days, to imp
 |27|Loading Animation|[View](https://codepen.io/shresthaneri/full/dydBVdx)|
 |28|CSS Tooltip|[View](https://codepen.io/shresthaneri/full/YzemPWY)|
 |29|CSS Toggle|[View](https://codepen.io/shresthaneri/full/xxYvrZo)|
-|30|[]()|
+|30|Ludo Game Design👑|[View](https://codepen.io/shresthaneri/full/WNMVKvZ)|
 
 ## If you are wondering, why suddenly 30days challenge?
 
